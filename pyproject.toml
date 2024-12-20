@@ -1,0 +1,16 @@
+[project]
+name = "py.rust"
+version = "0.1.0"
+description = "Calling Rust functions from Python"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "loguru>=0.7.3",
+    "pre-commit>=4.0.1",
+    "pytest>=8.3.4",
+    "ruff>=0.8.3",
+]
+
+[tool.ruff]
+exclude = [".venv"]
+line-length = 120
